@@ -4,16 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Izzy David Coelho - Simulador de Investimentos</title>
+    
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8848891461914399" crossorigin="anonymous"></script>
+    
     <style>
-        body { background-color: #000; color: #bbb; font-family: 'Segoe UI', sans-serif; margin: 0; padding: 0; text-align: center; }
+        /* CORES PADRONIZADAS: AZUL ESCURO E VERDE */
+        :root { 
+            --primary: #002e5d; 
+            --secondary: #28a745; 
+            --light: #f4f7f6; 
+        }
+
+        body { 
+            background-color: var(--light); 
+            color: #333; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            text-align: center; 
+        }
+
         .container { max-width: 900px; margin: 40px auto; padding: 20px; }
-        .card { background: #1a1a1a; border: 1px solid #27ae60; border-radius: 20px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); margin-bottom: 20px; }
-        h1, h2 { color: #27ae60; }
-        .btn-principal { display: inline-block; padding: 18px 35px; background-color: #27ae60; color: white; text-decoration: none; border-radius: 10px; font-weight: bold; font-size: 1.2em; transition: 0.3s; box-shadow: 0 4px 15px rgba(39, 174, 96, 0.4); }
-        .btn-principal:hover { background-color: #2ecc71; transform: scale(1.05); }
+
+        .card { 
+            background: #ffffff; 
+            border: 1px solid #ddd; 
+            border-radius: 20px; 
+            padding: 30px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+            margin-bottom: 20px; 
+        }
+
+        /* TÍTULOS EM AZUL ESCURO */
+        h1, h2 { color: var(--primary); }
+
+        /* BOTÃO EM VERDE (IGUAL AOS OUTROS) */
+        .btn-principal { 
+            display: inline-block; 
+            padding: 18px 35px; 
+            background-color: var(--secondary); 
+            color: white; 
+            text-decoration: none; 
+            border-radius: 10px; 
+            font-weight: bold; 
+            font-size: 1.2em; 
+            transition: 0.3s; 
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3); 
+        }
+
+        .btn-principal:hover { 
+            background-color: #218838; 
+            transform: scale(1.05); 
+        }
+
         .info-section { text-align: left; line-height: 1.8; margin-top: 30px; }
-        .footer-links a { color: #27ae60; text-decoration: none; margin: 0 10px; font-size: 0.9em; }
+        
+        /* COR DE DESTAQUE VERDE NOS TÍTULOS INTERNOS */
+        .destaque-verde { color: var(--secondary) !important; }
     </style>
 </head>
 <body>
@@ -30,15 +77,16 @@
             <h2>Por que começar a investir em 2026?</h2>
             <p>O cenário financeiro global está em constante mudança, e a única forma de proteger o seu poder de compra é através de investimentos inteligentes. A inflação consome o dinheiro parado, mas os juros compostos trabalham a seu favor enquanto dorme.</p>
             
-            <h2 style="color: #2ecc71;">3 Passos para Construir Riqueza</h2>
+            <h2 class="destaque-verde">3 Passos para Construir Riqueza</h2>
             <p><strong>1. Controle de Gastos:</strong> Antes de investir, é preciso saber para onde vai cada centavo. O segredo não é ganhar muito, mas gastar bem.</p>
             <p><strong>2. Constância nos Aportes:</strong> Mais importante que o valor inicial é a frequência. Investir todos os meses, mesmo que pouco, cria um hábito que gera fortunas no longo prazo.</p>
             <p><strong>3. Tempo e Paciência:</strong> O tempo é o ingrediente secreto dos bilionários. Quanto mais cedo começa, menos esforço terá de fazer no futuro.</p>
 
-            <h2 style="color: #2ecc71;">Nossa Visão</h2>
+            <h2 class="destaque-verde">Nossa Visão</h2>
             <p>Acreditamos que a educação financeira deve ser acessível, prática e sem termos complicados. Este portal foi desenhado para ser o seu guia visual na jornada rumo à independência. Explore o nosso simulador e veja com os seus próprios olhos o poder do crescimento exponencial.</p>
         </div>
-         <a href="https://izzydavidcoelho-creator.github.io/Simulador-Coelho/" class="btn-principal">🚀 ACESSAR SIMULADOR AGORA</a>
+
+        <a href="https://izzydavidcoelho-creator.github.io/Simulador-Coelho/" class="btn-principal">🚀 ACESSAR SIMULADOR AGORA</a>
         
         <p style="margin-top: 20px; color: #777; font-size: 0.8em;">
             Contato: izzydavidcoelho@gmail.com <br>
